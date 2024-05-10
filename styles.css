@@ -1,0 +1,197 @@
+*{
+    font-family: "Sofia Sans", sans-serif ;
+    width: 100%;
+    margin: 0;
+    color: #F4F2ED;
+    font-size: 48px;
+    overflow-x: hidden;
+}
+body{
+    background-color: #F4F2ED;
+    position: relative;
+}
+ /*NAV*/
+nav{
+    display: grid;
+    grid-template-columns: 80% auto;
+    background-color: #F4F2ED;
+    align-items: center;
+}
+.icon{
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 66px;
+    height: 46px;
+}
+/*HEADER*/
+.header{
+    background-image: url('images/img_bck.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 950px;
+}
+.h{
+    padding-top: 200px;
+    padding-left: 40px;
+}
+.h_2{
+    display: grid;
+    grid-template-columns: 9% auto;
+}
+.windys{
+   height: 70px; 
+   width: 276px;
+}
+.contact{
+    width: 272px;
+    height: 65px;
+    font-size: 24px;
+    background-color: #800020;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: inset;
+}
+/*MAIN 1*/
+.main{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 40px;
+}
+.m_1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.mockup{
+    height: 666px;
+    width: 563px;
+}
+.m_1_1{
+    display: grid;
+    grid-template-rows: 25% 20% 20% auto;
+    padding-left: 40px;
+    padding-top: 80px;
+}
+.m_1_1_3{
+    overflow-y: hidden;
+}
+.windys_y{
+    height: 95px;
+    width: 382px;
+}
+.contact_w{
+    width: 395px;
+    height: 65px;
+    font-size: 24px;
+    background-color: #800020;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: inset;
+}
+.m_2{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.m_2_1{
+    height: 723px;
+    overflow-y: hidden;
+}
+.m_2_1 img{
+    height: 723px;
+    object-fit: cover;
+}
+.m_2_2{
+    display: grid;
+    grid-template-columns: 60% auto;
+    padding-top: 60px;
+    background-image: url('images/yellow_bck.png');
+    background-size: cover;
+    height: 800px;
+}
+.m_2_2_1{
+    display: grid;
+    grid-template-rows: 20% 20% auto;
+    grid-row-gap: 10px;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+.m_2_2_2{
+    padding-top: 20px;
+}
+.m_2_2_2 img{
+    height: 466px;
+    width: 460px;
+}
+.m_3{
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+.m_3_1{
+    padding-left: 40px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.m_3_1_2{
+    display: grid;
+    grid-template-rows: 22% auto;
+}
+.m_3_2 img{
+    height: 1172px;
+    width: 961px;
+}
+.background-degrade{
+    z-index: -1;
+    background-image: url('images/footer_bck.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position:absolute;
+    height: 1100px;
+    left: 0;
+    bottom: 0;
+}
+/*FOOOTER*/
+footer{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    height: 156px;
+    width: 222px;
+}
+/*FUENTES*/
+h1{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 96px;
+}
+h2{
+    font-size: 64px;
+    line-height: 65px;
+    overflow-y: hidden;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+h3{
+    color: #403C3C;
+    font-size: 36px;
+    font-weight:normal;
+}
+.darkmode{
+    color: #403C3C;
+}
+.lightmode{
+    color: #F4F2ED;
+}
+.yellow{
+    color: #DEB841;
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-size: 64px;
+}
+
+/*
+COMENTARIOS
+1: Agregar modo oscuro landing page
+2: agregar mobile
+3: mobile modo oscuro*/
